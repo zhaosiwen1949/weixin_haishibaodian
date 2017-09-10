@@ -1,0 +1,9 @@
+<view class="page">
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <button wx:for="{{list}}" class="questionList__item weui-btn" type="primary" plain="true" size="mini">
+        {{item}}
+      </button>
+    </view>
+  </view>
+</view>
